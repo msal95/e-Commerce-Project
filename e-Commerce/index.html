@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Ecommerce Website</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="web-fonts-with-css/css/fontawesome-all.min.css">
+</head>
+<body>
+<!--Top Header---->
+	<div class="container-fluid bg-secondary header-top d-none d-md-block">
+		<div class="container">
+			<div class="row text-light pt-2 pb-2">
+				<div class="col-sm-5">
+					<i class="fas fa-envelope"></i> muhammadshahid.ms95@gmail.com
+				</div>
+				<div class="col-sm-3"></div>
+				<div class="col-sm-2"><i class="fas fa-user"></i><a href="#" class="text-light" style="text-decoration:none;"> Account</a></div>
+				<div class="col-sm-2"><i class="fas fa-shopping-cart"></i> My Cart - $0.00</div>
+			</div>
+		</div>
+	</div>
+<!--Navbar---->
+	<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+		<div class="container">
+			<a class="navbar-brand" href="#">Navbar</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynav">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="mynav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link active" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">About Us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Gallery</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Category</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item">Mens</a>
+							<a class="dropdown-item">Womens</a>
+							<a class="dropdown-item">Kids</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contact</a>
+					</li>
+				</ul>
+			</div>
+			<ul class="navbar-nav justify-content-end">
+				<form class="form-inline">
+					<input type="text" name="search" class="form-control mr-sm-1" placeholder="Search...">
+					<button type="button" class="btn btn-danger">Search</button>
+				</form>
+			</ul>
+		</div>	
+	</nav>	
+	<!--Carrousel--->
+	<div id="demo" class="carousel slide" data-ride="carousel">
+	  <ul class="carousel-indicators">
+		<li data-target="#demo" data-slide-to="0" class="active"></li>
+		<li data-target="#demo" data-slide-to="1"></li>
+		<li data-target="#demo" data-slide-to="2"></li>
+	  </ul>
+	  <div class="carousel-inner">
+		<div class="carousel-item active">
+		  <img src="images/b1.jpg" alt="Los Angeles" width="1100" height="500">
+		  <div class="carousel-caption d-none d-md-block text-danger">
+			<h1>Best Winter Collection</h1>
+			<p>We had such a great time in LA!</p>
+			<button type="button" class="btn btn-info btn-lg">Shop Now</button>
+		  </div>   
+		</div>
+		<div class="carousel-item">
+		  <img src="images/b4.jpg" alt="Chicago" width="1100" height="500">
+		  <div class="carousel-caption d-none d-md-block text-danger">
+			<h1>Best Summer Collection</h1>
+			<p>Thank you, Chicago!</p>
+			<button type="button" class="btn btn-info btn-lg">Shop Now</button>
+		  </div>   
+		</div>
+		<div class="carousel-item">
+		  <img src="images/b3.jpg" alt="New York" width="1100" height="500">
+		  <div class="carousel-caption d-none d-md-block text-danger">
+			<h1>Best Summer Collection</h1>
+			<p>We love the Big Apple!</p>
+			<button type="button" class="btn btn-info btn-lg">Shop Now</button>
+		  </div>   
+		</div>
+	  </div>
+	  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+		<span class="carousel-control-prev-icon"></span>
+	  </a>
+	  <a class="carousel-control-next" href="#demo" data-slide="next">
+		<span class="carousel-control-next-icon"></span>
+	  </a>
+	</div>
+	<!-- details-->
+	<div class="container-fluid pt-3 pb-3 bg-orange offer d-none d-md-block">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4 m-right">
+					<h4>Free Shipping</h4>
+					<p>On Order Over 90$</p>
+				</div>
+				<div class="col-sm-4 m-right">
+					<h4>Call Us Anytime</h4>
+					<p>+92-336-7528443</p>
+				</div>
+				<div class="col-sm-4">
+					<h4>Location</h4>
+					<p>Lahore, Punjab</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid bg-light-gray ">
+		<div class="container pt-5">
+			<div class="row">
+				<h3>ALL LADISE DRESS</h3>
+			</div>
+			<div class="underline"></div>
+		</div>
+		<div class="container mt-5">
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="card">
+						<img src="images/1.jpg" class="img-fluid card-img-top">
+						<div class="card-body">
+							<h5>White Dress</h5>
+							<h5>$300</h5>
+							<button class="btn btn-danger" type="button"><i class="fas fa-cart-plus"></i> Add To Cart</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="card">
+						<img src="images/2.jpg" class="img-fluid card-img-top">
+						<div class="card-body">
+							<h5>Blue Dress</h5>
+							<h5>$300</h5>
+							<button class="btn btn-danger" type="button"><i class="fas fa-cart-plus"></i> Add To Cart</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="card">
+						<img src="images/4.jpg" class="img-fluid card-img-top">
+						<div class="card-body">
+							<h5>White Dress</h5>
+							<h5>$300</h5>
+							<button class="btn btn-danger" type="button"><i class="fas fa-cart-plus"></i> Add To Cart</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="card">
+						<img src="images/7.jpg" class="img-fluid card-img-top">
+						<div class="card-body">
+							<h5>Black Dress</h5>
+							<h5>$300</h5>
+							<button class="btn btn-danger" type="button"><i class="fas fa-cart-plus"></i> Add To Cart</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container pt-5">
+			<div class="row">
+				<h3>High Heels Shoes</h3>
+			</div>
+			<div class="underline"></div>
+		</div>
+		<div class="container mt-5">
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="card">
+						<img src="images/s1.jpg" class="img-fluid card-img-top">
+						<div class="card-body">
+							<h5>New Design 2018</h5>
+							<h5>$300</h5>
+							<button class="btn btn-danger" type="button"><i class="fas fa-cart-plus"></i> Add To Cart</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="card">
+						<img src="images/s2.jpg" class="img-fluid card-img-top">
+						<div class="card-body">
+							<h5>New Design 2018</h5>
+							<h5>$300</h5>
+							<button class="btn btn-danger" type="button"><i class="fas fa-cart-plus"></i> Add To Cart</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="card">
+						<img src="images/s3.jpg" class="img-fluid card-img-top">
+						<div class="card-body">
+							<h5>New Design 2018</h5>
+							<h5>$300</h5>
+							<button class="btn btn-danger" type="button"><i class="fas fa-cart-plus"></i> Add To Cart</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="card">
+						<img src="images/s4.jpg" class="img-fluid card-img-top">
+						<div class="card-body">
+							<h5>New Design 2018</h5>
+							<h5>$300</h5>
+							<button class="btn btn-danger" type="button"><i class="fas fa-cart-plus"></i> Add To Cart</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container-fluid pt-5 pb-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="row">
+						<h4>Most Wanted</h4>
+					</div>
+					<div class="row">
+						<div class="underline-green"></div>
+					</div>
+					<div class="media mt-5">
+						<img src="images/8.jpg" class="img-fluid mr-3" alt="media">
+						<div class="media-body mt-2">
+							<h5>Dress</h5>
+							<h6>$450</h6>
+							<button class="btn btn-danger" type="button"><i class="fas fa-cart-plus"></i> Add To Cart</button>
+						</div>
+					</div>
+					<div class="media mt-5">
+						<img src="images/T1362506728255914_2.jpg" class="img-fluid mr-3" alt="media">
+						<div class="media-body mt-2">
+							<h5>Dress</h5>
+							<h6>$450</h6>
+							<button class="btn btn-danger" type="button"><i class="fas fa-cart-plus"></i> Add To Cart</button>
+						</div>
+					</div>
+					<div class="media mt-5">
+						<img src="images/Teen-girls-clothing-trends-2016-7.jpg" class="img-fluid mr-3" alt="media">
+						<div class="media-body mt-2">
+							<h5>Dress</h5>
+							<h6>$450</h6>
+							<button class="btn btn-danger" type="button"><i class="fas fa-cart-plus"></i> Add To Cart</button>
+						</div>
+					</div>
+					<div class="media mt-5">
+						<img src="images/send-jeans-pakistan.jpg" class="img-fluid mr-3" alt="media">
+						<div class="media-body mt-2">
+							<h5>Dress</h5>
+							<h6>$450</h6>
+							<button class="btn btn-danger" type="button"><i class="fas fa-cart-plus"></i> Add To Cart</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="row">
+						<h4>Latest Collection</h4>
+					</div>
+					<div class="row">
+						<div class="underline-blue"></div>
+					</div>
+					<div class="media mt-5">
+						<img src="images/user203428_pic51575_1346242413.jpg" class="img-fluid mr-3" alt="media">
+						<div class="media-body mt-2">
+							<h5>Dress</h5>
+							<h6>$450</h6>
+							<button class="btn btn-danger" type="button"><i class="fas fa-cart-plus"></i> Add To Cart</button>
+						</div>
+					</div>
+					<div class="media mt-5">
+						<img src="images/201710130947238653374.jpg" class="img-fluid mr-3" alt="media">
+						<div class="media-body mt-2">
+							<h5>Dress</h5>
+							<h6>$450</h6>
+							<button class="btn btn-danger" type="button"><i class="fas fa-cart-plus"></i> Add To Cart</button>
+						</div>
+					</div>
+					<div class="media mt-5">
+						<img src="images/Yellow-Spring-Summer-Campaign-Dresses-2016-For-Boys-Girls-6.jpg" class="img-fluid mr-3" alt="media">
+						<div class="media-body mt-2">
+							<h5>Dress</h5>
+							<h6>$450</h6>
+							<button class="btn btn-danger" type="button"><i class="fas fa-cart-plus"></i> Add To Cart</button>
+						</div>
+					</div>
+					<div class="media mt-5">
+						<img src="images/Untitled5.png" class="img-fluid mr-3" alt="media">
+						<div class="media-body mt-2">
+							<h5>Dress</h5>
+							<h6>$450</h6>
+							<button class="btn btn-danger" type="button"><i class="fas fa-cart-plus"></i> Add To Cart</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="row">
+						<h4>On Sale</h4>
+					</div>
+					<div class="row">
+						<div class="underline-black"></div>
+					</div>
+					<div class="media mt-5">
+						<img src="images/5.jpg" class="img-fluid mr-3" alt="media">
+						<div class="media-body mt-2">
+							<h5>Dress</h5>
+							<h6>$450</h6>
+							<button class="btn btn-danger" type="button"><i class="fas fa-cart-plus"></i> Add To Cart</button>
+						</div>
+					</div>
+					<div class="media mt-5">
+						<img src="images/pakistani-modeljeans.jpg" class="img-fluid mr-3" alt="media">
+						<div class="media-body mt-2">
+							<h5>Dress</h5>
+							<h6>$450</h6>
+							<button class="btn btn-danger" type="button"><i class="fas fa-cart-plus"></i> Add To Cart</button>
+						</div>
+					</div>
+					<div class="media mt-5">
+						<img src="images/Teen-girls-clothing-trends-2016-7.jpg" class="img-fluid mr-3" alt="media">
+						<div class="media-body mt-2">
+							<h5>Dress</h5>
+							<h6>$450</h6>
+							<button class="btn btn-danger" type="button"><i class="fas fa-cart-plus"></i> Add To Cart</button>
+						</div>
+					</div>
+					<div class="media mt-5">
+						<img src="images/user203428_pic51575_1346242413.jpg" class="img-fluid mr-3" alt="media">
+						<div class="media-body mt-2">
+							<h5>Dress</h5>
+							<h6>$450</h6>
+							<button class="btn btn-danger" type="button"><i class="fas fa-cart-plus"></i> Add To Cart</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container-fluid bg-light-gray ">
+		<div class="container pt-5">
+			<div class="row">
+				<h3>Featured Products</h3>
+			</div>
+			<div class="underline"></div>
+		</div>
+		<div class="container mt-5">
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="card">
+						<img src="images/1.jpg" class="img-fluid card-img-top">
+						<div class="card-body">
+							<h5>White Dress</h5>
+							<h5>$300</h5>
+							<button class="btn btn-danger" type="button"><i class="fas fa-cart-plus"></i> Add To Cart</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="card">
+						<img src="images/2.jpg" class="img-fluid card-img-top">
+						<div class="card-body">
+							<h5>Blue Dress</h5>
+							<h5>$300</h5>
+							<button class="btn btn-danger" type="button"><i class="fas fa-cart-plus"></i> Add To Cart</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="card">
+						<img src="images/4.jpg" class="img-fluid card-img-top">
+						<div class="card-body">
+							<h5>White Dress</h5>
+							<h5>$300</h5>
+							<button class="btn btn-danger" type="button"><i class="fas fa-cart-plus"></i> Add To Cart</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="card">
+						<img src="images/7.jpg" class="img-fluid card-img-top">
+						<div class="card-body">
+							<h5>Black Dress</h5>
+							<h5>$300</h5>
+							<button class="btn btn-danger" type="button"><i class="fas fa-cart-plus"></i> Add To Cart</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container pt-5">
+		<div class="row">
+			<h3>From The Blog</h3>
+		</div>
+		<div class="underline"></div>
+	</div>
+	<div class="container mt-5">
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="media mt-5">
+					<img src="images/Teen-girls-clothing-trends-2016-7.jpg" class="img-fluid mr-3" alt="media">
+					<div class="media-body mt-2">
+						<h5>Latest Dress Collection</h5>
+						<p>Lorem Site Dollar Ipsum..</p>
+						<p><i class="fas fa-user"></i> Admin</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="media mt-5">
+					<img src="images/user203428_pic51575_1346242413.jpg" class="img-fluid mr-3" alt="media">
+					<div class="media-body mt-2">
+						<h5>Latest Dress Collection</h5>
+						<p>Lorem Site Dollar Ipsum..</p>
+						<p><i class="fas fa-user"></i> Admin</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="media mt-5">
+					<img src="images/Teen-girls-clothing-trends-2016-7.jpg" class="img-fluid mr-3" alt="media">
+					<div class="media-body mt-2">
+						<h5>Latest Dress Collection</h5>
+						<p>Lorem Site Dollar Ipsum..</p>
+						<p><i class="fas fa-user"></i> Admin</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="media mt-5">
+					<img src="images/user203428_pic51575_1346242413.jpg" class="img-fluid mr-3" alt="media">
+					<div class="media-body mt-2">
+						<h5>Latest Dress Collection</h5>
+						<p>Lorem Site Dollar Ipsum..</p>
+						<p><i class="fas fa-user"></i> Admin</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid bg-light-gray ">
+		<div class="container pt-5">
+			<div class="row">
+				<h3>Trends</h3>
+			</div>
+			<div class="underline1"></div>
+		</div>
+		<div class="container mt-5">
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="card">
+						<img src="images/1.jpg" class="img-fluid card-img-top">
+						<div class="card-body">
+							<h5>White Dress</h5>
+							<h5>$300</h5>
+							<button class="btn btn-danger" type="button"><i class="fas fa-cart-plus"></i> Add To Cart</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="card">
+						<img src="images/2.jpg" class="img-fluid card-img-top">
+						<div class="card-body">
+							<h5>Blue Dress</h5>
+							<h5>$300</h5>
+							<button class="btn btn-danger" type="button"><i class="fas fa-cart-plus"></i> Add To Cart</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="card">
+						<img src="images/4.jpg" class="img-fluid card-img-top">
+						<div class="card-body">
+							<h5>White Dress</h5>
+							<h5>$300</h5>
+							<button class="btn btn-danger" type="button"><i class="fas fa-cart-plus"></i> Add To Cart</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="card">
+						<img src="images/7.jpg" class="img-fluid card-img-top">
+						<div class="card-body">
+							<h5>Black Dress</h5>
+							<h5>$300</h5>
+							<button class="btn btn-danger" type="button"><i class="fas fa-cart-plus"></i> Add To Cart</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="container-fluid bg-dark mt-1 text-light">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-3">
+						<h3 class="pt-2">About Us</h3>
+						<ul class="nav flex-column">
+							<a class="nav-link" href="#">Careers</a>
+							<a class="nav-link" href="#">Terms&Conditions</a>
+							<a class="nav-link" href="#">Privacy Policy</a>
+							<a class="nav-link" href="#">NTN No. 3753133-6</a>
+						</ul>
+					</div>
+					<div class="col-sm-3">
+						<h3 class="pt-2">Customer Services</h3>
+						<ul class="nav flex-column">
+							<a class="nav-link" href="#">Contact Us</a>
+							<a class="nav-link" href="#">Refund Policy</a>
+							<a class="nav-link" href="#">Return Policy</a>
+							<a class="nav-link" href="#">Waranty Policy</a>
+							<a class="nav-link" href="#">Track You'r Order</a>
+						</ul>
+					</div>
+					<div class="col-sm-3">
+						<h3 class="pt-2">Member Area</h3>
+						<ul class="nav flex-column">
+							<a class="nav-link" href="#">My Account</a>
+							<a class="nav-link" href="#">Order Status</a>
+							<a class="nav-link" href="#">My Wishlist</a>
+							<a class="nav-link" href="#">My Cart</a>
+						</ul>
+					</div>
+					<div class="col-sm-3">
+						<h3 class="pt-2">Follow Us</h3>
+						<a href="#" data-toggle="tooltip" title="Facebook"><i class="fab fa-facebook-square fa-2x"></i></a>
+						<a href="#" data-toggle="tooltip" title="Twitter"><i class="fab fa-twitter-square fa-2x"></i></a>
+						<a href="#" data-toggle="tooltip" title="Linkedin"><i class="fab fa-linkedin fa-2x"></i></a>
+						
+						<h3>Payment Method</h3>
+						<i class="fab fa-cc-mastercard fa-3x"></i>
+						<i class="fab fa-cc-visa fa-3x"></i>
+						<i class="fab fa-paypal fa-3x"></i>
+						<i class="fab fa-cc-paypal fa-3x"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container-fluid bg-secondary d-md-block d-none p-2 text-light">
+			<p class="text-center">&copy; Copyright 2018 shopping.pk for Online Shopping in Pakistan All Rights Reserved</p>
+		</div>
+	</footer>
+	
+	
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>
